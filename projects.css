@@ -1,0 +1,27 @@
+body {
+    background-image: url(images/); /*pick an image to set as the background (2560x1440 minimum)*/
+    background-size: 100%;
+}
+
+/*.background_blur {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 110%;
+    height: 110%;
+    backdrop-filter: blur(2px);
+    z-index: 4;
+} this code is to-be-determined if we want a background blur or not*/
+
+#coded_by {
+    position: fixed;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    top: 90%;
+    z-index: 5;
+    font-family: monospace;
+    font-size: 2dvb;
+    color: rgb(0, 0, 0);
+    opacity: 90%;
+}
