@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(images/eldenring.png);
     background-size: 100%;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #coded_by {
@@ -16,24 +24,49 @@ body {
     opacity: 90%;
 }
 
+/* LOGIN FORM START */
+
+.form-container {
+    width: 420px;
+    height: 330px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    position: relative;
+    top: 350px;
+}
+
+.form-container h1 {
+    color: rgb(214, 76, 159);
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
 .form_input {
-    position: fixed;
+    position: relative;
     left: 50%;
-    top: 45%;
+    top: 130px;
     border: 1px solid white;
     text-align: center;
     color: rgb(0, 0, 0);
-
     border-radius: 4px;
     transform: translate(-50%, -50%);
-    background-color: rgb(255, 255, 255,);
+    background-color: rgb(255, 255, 255);
     backdrop-filter: blur(4px);
+    padding: 10px 60px;
+    margin: 5px;
 }
 
-#password {
-    top: 45%;
-    margin-top: 25px;
-}
+.form_input:hover {
+    cursor: pointer;
+} 
+
+/* LOGIN FORM END */ 
 
 .box {
     border: 2px solid #fff;
