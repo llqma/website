@@ -13,6 +13,20 @@ function closeAkiIntro(){
     var intro = document.querySelector(".aki_intro");
     intro.style.visibility = "hidden";
 }
+let loginForm = document.querySelector("#login-form");
+function displayLoginForm () {
+    
+    loginForm.style.visibility = "visible";
+    start_button.style.visibility = "hidden";
+
+}
+
+function hideLoginForm(){
+    loginForm.style.visibility = "hidden";
+}
+
+start_button.addEventListener("click", displayLoginForm);
+
 
 // button to close the intro menu (i'm going to move the carrd to probably the "about" page so ignore this code i am moving it later on)
 /*var x_button = document.querySelector("#x_button")
@@ -33,10 +47,14 @@ function changeColor() {
         coded.style.color = "lightblue";
         start_button.style.borderColor = "lightblue";
         background.style.backgroundImage = "url('images/eldenringblue.png')";
-        //allow user to click button
+        openMenu();
+        hideLoginForm();
+
+       /* //allow user to click button
         var button = document.querySelector("#start_button");
         button.addEventListener("click", openMenu); 
-        return 1;
+        return 1; */
+
         // else turn red and return false
     } else {
         coded.style.color = "red";

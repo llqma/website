@@ -37,6 +37,7 @@ body {
     margin: auto;
     position: relative;
     top: 350px;
+    visibility: hidden;
 }
 
 .form-container h1 {
@@ -116,12 +117,10 @@ body {
     transform: translate(-50%, -50%);
     top: 50%;
     z-index: 5;
-
     font-family: monospace;
     font-size: 5dvb;
     text-decoration: none;
     color: rgb(236, 236, 236);
-    opacity: 100%;
     cursor: pointer;
 }
 
@@ -130,9 +129,9 @@ body {
 }
 
 #menu_box {
+    width: 500px;
     border-radius: 12px;
-    background-color: white;
-    opacity: 10%;
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(2px);
     position: fixed;
     left: 50%;
@@ -156,14 +155,6 @@ body {
     margin: 50px 0px;
     z-index: 5;
 
-}
-
-#ily {
-    position: fixed;
-    color: rgb(168, 123, 123);
-    font-family: monospace;
-    font-size: 10px;
-    z-index: 10;
 }
 
 #d {
