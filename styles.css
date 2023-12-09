@@ -162,6 +162,11 @@ body {
     z-index: 5;
 }
 
+#e {
+    margin: 250px 0px;
+    z-index: 5;
+}
+
 #intro_box {
     position: fixed;
     left: 15%;

@@ -1,0 +1,69 @@
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+    color: #4d4c4c;
+    list-style: none;
+}
+body {
+    background-image: url(images/pink-clouds.png); /*pick an image to set as the background (2560x1440 minimum)*/
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.roof {
+  border-bottom: 100px solid #DE929B;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  height: 0;
+  width: 70em;
+  margin-top: 50px;
+}
+
+.container {
+    width: 55%;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.60);
+    text-align: center;
+}
+
+.icon {
+  display: block;
+  margin: 10px auto;
+  border-radius: 50%;
+  width: 220px;
+}
+
+.container h1 {
+  font-size: 36px;
+  font-family: "Allison", sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container h2 {
+  margin: 15px;
+  text-align: center;
+}
+
+.facts {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.gallery img {
+  width: 300px;
+}
+
+.gallery video {
+  width: 500px;
+}
